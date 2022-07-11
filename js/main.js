@@ -11,11 +11,11 @@ inView('.spacing').on('exit', function(el){
 
 
 
-inView('.bruh2').on('enter', el => {
+inView('.bruh').on('enter', el => {
   el.style.opacity = 1;
   el.style.transform = "translateY(-200%)";
 });
-inView('.bruh2').on('exit', el => {
+inView('.bruh').on('exit', el => {
   el.style.opacity = 0;
   el.style.transform = "translateY(-400%)";
 });
